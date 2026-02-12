@@ -1,9 +1,11 @@
 # European ground squirrel SDM pipeline
 
-High-resolution species distribution and ecological niche modelling of the European ground squirrel in its ancestral range.
+**High-resolution species distribution and ecological niche modelling of the European ground squirrel in its ancestral range.**
+
 
 Authors: Natália Martínková, Maria Kachamakova, Jordan Tzvetkov, Yordan Koshev
-Script author: Natália Martínková
+
+*Script author: Natália Martínková*
 
 ---
 
@@ -81,4 +83,5 @@ If paths are not updated, the workflow will fail.
 * All rasters must share CRS, extent, and resolution before modelling
 
 ---
+
 
