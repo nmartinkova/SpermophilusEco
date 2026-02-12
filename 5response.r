@@ -47,7 +47,8 @@ env = rast("Data/env.tif")
 # predict PCA for sampled points
 dat <- bind_cols(dat, predict(pca, as.data.frame(dat)))
 dat <- dat %>% select(all_of(c(paste0("PC", 1:npcs), "class")))
-dat = dat[dat$class == "presence",]
+# uncomment for presence-only responses
+# dat = dat[dat$class == "presence",]
 
 # predictor importance in the SDM model
 vars = read.table("Results/SDM-varImportance.txt", header = T, sep = "\t")
